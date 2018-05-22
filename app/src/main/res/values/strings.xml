@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Appointer</string>
+
+    <string name="title">Enter the Title of the Appointment</string>
+    <string name="time">Enter the Time of the Appointment</string>
+    <string name="details">Enter the Details of the Appointment</string>
+    <string name="thesaurusText">Enter Thesaurus Text</string>
+
+    <string name="searchHint">Enter Search Text Here</string>
+
+    <string name="btnCreate">create appointment</string>
+    <string name="btnView">View/Edit appointments</string>
+    <string name="btnDelete">Delete Appointment</string>
+    <string name="btnMove">Move Appointment</string>
+    <string name="btnSearch">Search Appointments</string>
+
+    <string name="btnReplace">replace</string>
+    <string name="btnThesaurus">thesaurus</string>
+    <string name="btnAppSave">save appointment</string>
+
+
+    <string-array name="reminder_times">
+        <item>Select Notification Time</item>
+        <item>before 5 minutes</item>
+        <item>before 10 minutes</item>
+        <item>before 15 minutes</item>>
+    </string-array>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minDate=""></CalendarView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnCreate"
+                    style="@style/MyButton"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:text="@string/btnCreate" />
+
+                <Button
+                    android:id="@+id/btnView"
+                    style="@style/MyButton"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:text="@string/btnView" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    style="@style/MyButton"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:text="@string/btnDelete" />
+
+                <Button
+                    android:id="@+id/btnMove"
+                    style="@style/MyButton"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:text="@string/btnMove" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnSearch"
+                    style="@style/MyButton"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:text="@string/btnSearch" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
